@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "protocols",
+  "info": {
+    "singularName": "protocol",
+    "pluralName": "protocols",
+    "displayName": "Protocol",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "protocolName": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "maxLength": 100,
+      "minLength": 1
+    }
+  }
+}

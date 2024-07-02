@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sensor_types",
+  "info": {
+    "singularName": "sensor-type",
+    "pluralName": "sensor-types",
+    "displayName": "Sensor_Type",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sensorName": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "maxLength": 100,
+      "minLength": 1
+    },
+    "sensorInput": {
+      "type": "json"
+    }
+  }
+}

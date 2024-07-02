@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sensors",
+  "info": {
+    "singularName": "sensor",
+    "pluralName": "sensors",
+    "displayName": "Sensor"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sensor_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sensor-type.sensor-type"
+    },
+    "protocol": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::protocol.protocol"
+    }
+  }
+}
